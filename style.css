@@ -5,15 +5,15 @@
     box-sizing: border-box;
 }
 
-/* body {
-    height: 100vh;
-    width: 100vw;
-} */
+body {
+    height: 100%;
+    width: 100%;
+}
 
 header {
-    margin-bottom: auto;
-    margin-top: 25px;
-    margin-left: 30px
+    margin-top: 2%;
+    margin-left: 5%;
+    
     
 }
 
@@ -37,7 +37,7 @@ header a:active {
 
 header button {
     height: 30px;
-    width: 87px;
+    width: 8%;
     font-weight: 400;
     font-size: 17px;
     background: #665AE1;
@@ -58,48 +58,49 @@ header button:active {
 }
 
 main {
-    display: inline-block;
+    
     
 }
 
 main img {
     display: inline-block;
-    height: 400px;
-    margin: 100px auto;
-    padding-left: 100px;
+    height: 80%;
+    
+    /* margin: 20% auto; */
+    padding-left: 5%;
+    margin-top: 5%;
 }
 
 main div {
     display: inline-block;
     position: absolute;
-    top: 25%;
-    padding-left: 55px;
+    top: 30%;
+    padding-left: 6%;
 }
 
 div h1 {
-    font-size: 100px;
+    font-size: 6rem;
     font-weight: 900;
     text-transform: uppercase;
     color: #515151;
-    line-height: 121.9px;
+    line-height: 120%;
 }
 
 div h2 {
     font-weight: 500;
-    font-size: 58px;
+    font-size: 3rem;
     color:#515151;
-    line-height: 70.7px;
+    line-height: 1em;
 }
 
 div p {
-    width: 475px;
+    width: 100%;
     font-weight: 400;
     font-size: 20px;
     color: #848484;
     line-height: 29.26px;
     margin: 15px auto;
-    /* text-align:left;
-    align-items: center; */
+    
 }
 
 div button {
@@ -108,11 +109,12 @@ div button {
     font-size: 18px;
     text-transform: uppercase;
     height: 45px;
-    width: 185px;
+    width: 30%;
     border-radius: 50px;
     background: #ADFF00;
     border: none;
     cursor: pointer;
+    box-shadow:  0 7px 10px #515151;
 }
 
 div button:hover {
